@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="{{ asset('images/favicon/favicon.ico') }}" sizes="any" />
+{{--    <link rel="icon" href="{{ asset('images/favicon/favicon.svg') }}" type="image/svg+xml" />--}}
+{{--    <link rel="icon" sizes="192x192" href="{{ asset('images/favicon/android-chrome-192x192.png') }}">--}}
+{{--    <link rel="apple-touch-icon" href="{{ asset('images/favicon/android-chrome-192x192.png') }}">--}}
+{{--    <link rel="mask-icon" href="favicon.svg" color="#000000">--}}
+
     <title>{{ config('app.name') }}</title>
+
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
